@@ -29,14 +29,20 @@
     margin-bottom: 0;
   }
   
-  h1,
+  
   h2,
-  h3,
-  p {
+  h3 {
     font-family: fantasy;
     font-weight: 700;
     color: #4aaaa5;
     margin-bottom: 20px;
+  }
+
+  p {
+    font-family: fantasy;
+    font-weight: 700;
+    color: #4aaaa5;
+    margin-bottom: 20px;  
   }
   
   h1 {
@@ -48,7 +54,7 @@
   
   h2,
   h3 {
-    font-size: 22px;
+    font-size: 30px;
   }
   
   /* header */
@@ -78,15 +84,40 @@
     background: black;
   }
 
+  /* main page */
+
+.content {
+    position: absolute;
+    width: 930px;
+    min-height: 360px;
+    height: auto;
+    right: 0;
+    top: 30%;
+ 
+} 
+
+.home {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: black;
+    font-family: fantasy;
+    text-transform: uppercase;
+}
+  
+.home h1 {
+    font-size: 100px;
+    padding-right: 60px;
+    border-bottom: 1px solid white;
+    line-height: 90px;
+}
 .nav {
     top: 20%;
     left: 0;
     width: 350px;
     height: auto;
     position: absolute;
- 
-   
-}
+ }
 
 .nav a {
     width: 100%;
@@ -155,8 +186,8 @@
   .work {
     position: relative;     
     float: left;
-    width: 274px;
-    height:274px;
+    width: 250px;
+    height: 325px;
     margin: 20px 20px 20px 20px;
     overflow: auto;
     justify-content: center;
@@ -184,9 +215,7 @@
     -webkit-transform: scale(1.2);
 }
     
-  
-  
-  .work h3 {
+.work h3 {
     position: absolute;
     bottom: 20px;
     width: 100%;
@@ -200,7 +229,7 @@
     border-bottom: 0;
   }
   
-  .auth-image {
+.auth-image {
     float: left;
     width: 200px;
     height: auto;
