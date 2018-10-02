@@ -21,6 +21,7 @@
     max-width: 960px;
     margin: 0 auto;
     clear: both;
+   
   }
  
   
@@ -59,7 +60,7 @@
     margin: 0 0 30px;
     overflow: auto;
     color: #fff;
-    background: #4aaaa5;
+    background: black;
     border-bottom: 2px solid #ccc;
   }
   
@@ -68,13 +69,13 @@
     width: 250px;
     height: 90px;
     font-family: fantasy;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 90px;
-    color: #fff;
+    color: #4aaaa5;
     text-align: center;
     text-decoration: none;
-    background: #4aaaa5;
+    background: black;
   }
 
 .nav {
@@ -83,6 +84,8 @@
     width: 350px;
     height: auto;
     position: absolute;
+ 
+   
 }
 
 .nav a {
@@ -97,7 +100,7 @@
     display: inline-block;
     float: left;
     margin: 5px 0;
-    background-color: rgb(18, 93, 128); 
+    background-color: #4aaaa5; 
     color: whitesmoke;
     transition: 300ms;
 }
@@ -117,7 +120,7 @@
     color: #fff;
     color: #ccc;
     text-align: center;
-    background: #4aaaa5;
+    background: black;
     border-top: 8px solid #4aaaa5;
     height: 50px;
   }
@@ -141,8 +144,8 @@
     width: 100%;
     max-width: 960px;
     padding: 30px;
-    margin: 0 0 40px;
-    background: #fff;
+    margin: 0 0 0 95px;
+    background: black;
     border: 1px solid #ddd;
     
   }
@@ -248,25 +251,7 @@
 
 
 
-  a:link {
-    text-decoration: none;
-    background: transparent;
-    color:#666666;
-}
-
-a:hover {
-    color: #cccccc;
-}
-
-a:visited {
-    color: #666666;
-}
-
-a:active {
-    color: #666666;
-}
-
-
+  
 
 /* need to finish linking, need to get rid of horizontal
   scrolling bar and need to fix image and need to center 
