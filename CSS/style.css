@@ -39,7 +39,7 @@
   }
 
   p {
-    font-family: fantasy;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
     color: #4aaaa5;
     margin-bottom: 20px;  
@@ -84,7 +84,7 @@
     background: black;
   }
 
-  /* main page */
+  /* home page */
 
 .content {
     position: absolute;
@@ -111,6 +111,8 @@
     border-bottom: 1px solid white;
     line-height: 90px;
 }
+
+/* navbar */
 .nav {
     top: 20%;
     left: 0;
@@ -181,13 +183,13 @@
     
   }
   
-  /* portfolio page */
+  /* portfolio and images page */
 
   .work {
     position: relative;     
     float: left;
     width: 250px;
-    height: 325px;
+    height: 300px;
     margin: 20px 20px 20px 20px;
     overflow: auto;
     justify-content: center;
@@ -253,6 +255,7 @@
   textarea {
     display: block;
     width: 100%;
+    color: #4aaaa5;
   }
   
   input[type=text],
